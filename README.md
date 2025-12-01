@@ -16,6 +16,7 @@ This project enables users to communicate using American Sign Language (ASL) by 
 - Deployment-ready architecture
 
 ## Project Structure
+```
 SignLanguageTranslator/
 ├── backend/
 │ ├── app.py
@@ -27,7 +28,9 @@ SignLanguageTranslator/
 │ ├── App.js
 │ └── VideoCapture.js
 └── .gitignore
+```
 
+---
 
 ## Setup Instructions
 
