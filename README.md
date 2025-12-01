@@ -1,70 +1,80 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sign Language Translator 🖐️
 
-## Available Scripts
+**Status:** 🚧 Under Development  
+A full-stack Sign Language Translator that converts real-time hand gestures into text using **Python (Flask)** for the backend and **React** for the frontend. Currently, the backend uses a placeholder prediction; full AI integration is in progress.
 
-In the project directory, you can run:
+## Overview
+This project enables users to communicate using American Sign Language (ASL) by translating hand gestures into text. The backend exposes a REST API for predictions, while the frontend captures webcam input and displays predicted letters in real-time.
 
-### `npm start`
+## Features
+- Real-time gesture recognition (dummy prediction currently)
+- Flask backend with `/predict` API
+- React frontend with webcam capture
+- Modular, maintainable code structure
+- Ready for AI/ML model integration
+- Deployment-ready architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure
+SignLanguageTranslator/
+├── backend/
+│ ├── app.py
+│ ├── requirements.txt
+│ └── venv/ # Ignored in Git
+├── frontend/
+│ ├── package.json
+│ └── src/
+│ ├── App.js
+│ └── VideoCapture.js
+└── .gitignore
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
 
-### `npm test`
+## Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
+```bash
+cd backend
+python -m venv venv
+./venv/Scripts/Activate.ps1  # Windows
+pip install -r requirements.txt
+python app.py
+Frontend
+bash
+Copy code
+cd frontend
+npm install
+npm start
+Notes
+Currently uses a dummy prediction "A" for all gestures.
 
-### `npm run build`
+AI/ML model integration is in progress — will replace dummy predictions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Virtual environments (venv/) and frontend dependencies (node_modules/) are ignored in Git.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Project is structured for easy maintenance, scaling, and deployment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Skills & Technologies Demonstrated
+Backend: Python, Flask, Flask-CORS, API development
 
-### `npm run eject`
+Frontend: React, Webcam capture, Axios for API calls
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+AI Integration: Placeholder for ML/AI model
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Version Control & Deployment: Git, GitHub, modular project structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+License
+MIT License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+yaml
+Copy code
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+💡 **Professional Notes for Resume:**  
+- Mention this project as **“Under Development”**, showing awareness of project lifecycle.  
+- Highlight **full-stack development**, **AI integration**, and **real-time feature implementation**.  
+- Mention **modular, deployment-ready architecture** — makes it resume-worthy.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
