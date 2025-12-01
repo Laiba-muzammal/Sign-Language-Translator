@@ -52,7 +52,7 @@ npm start
 
 ---
 
-#### Notes
+### Notes
 Currently uses a dummy prediction "A" for all gestures.
 
 AI/ML model integration is in progress — will replace dummy predictions.
@@ -63,7 +63,7 @@ Project is structured for easy maintenance, scaling, and deployment.
 
 ---
 
-#### Skills & Technologies Demonstrated
+### Skills & Technologies Demonstrated
 Backend: Python, Flask, Flask-CORS, API development
 
 Frontend: React, Webcam capture, Axios for API calls
@@ -74,7 +74,7 @@ Version Control & Deployment: Git, GitHub, modular project structure
 
 ---
 
-License
+### License
 MIT License
 
 ---
