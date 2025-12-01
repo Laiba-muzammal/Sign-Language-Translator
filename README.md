@@ -47,6 +47,8 @@ npm install
 npm start
 ```
 
+---
+
 #### Notes
 Currently uses a dummy prediction "A" for all gestures.
 
@@ -71,12 +73,5 @@ Version Control & Deployment: Git, GitHub, modular project structure
 
 License
 MIT License
-
----
-
-💡 **Professional Notes for Resume:**  
-- Mention this project as **“Under Development”**, showing awareness of project lifecycle.  
-- Highlight **full-stack development**, **AI integration**, and **real-time feature implementation**.  
-- Mention **modular, deployment-ready architecture** — makes it resume-worthy.  
 
 ---
