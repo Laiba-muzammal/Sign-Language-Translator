@@ -70,23 +70,19 @@ SignLanguageTranslator/
 ## 🚀 **Features**
 
 ### 🎥 Frontend
-
 * Webcam-based gesture capture
 * Bootstrap-styled UI
 * Live predictions displayed as:
-
   * **Sentence**
   * **Letter history with confidence**
 * Capture, Back, and Clear controls
 * Confidence threshold filtering
 
 ### 🔧 Backend
-
 * Flask API (`POST /`)
 * Receives Base64 webcam image
 * Sends image to RoboFlow Model
 * Returns:
-
   * `letter`
   * `confidence`
 
