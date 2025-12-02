@@ -23,12 +23,12 @@ GestureSpeak allows users to communicate using American Sign Language (ASL) by d
 Screenshots will be added as UI completes.
 
 | Home Screen | Gesture Capture | Prediction Output |
-|-------------|-----------------|-------------------|
-| !(Sign-Language-Translator/screenshots/Outputs.png) | !(screenshots/Processing.png) | !(screenshots/Ouputs.png) |
+|------------|------------------|-------------------|
+| ![Home](screenshots/Outputs.png) | ![Capture](screenshots/Processing.png) | ![Prediction](screenshots/Outputs.png) |
 
 | History Panel | Confidence Badges | Full Interface |
 |---------------|-------------------|----------------|
-| ![4](https://via.placeholder.com/300x180?text=Screenshot+4) | ![5](https://via.placeholder.com/300x180?text=Screenshot+5) | ![6](https://via.placeholder.com/300x180?text=Screenshot+6) |
+| ![History](screenshots/4.png) | ![Confidence](screenshots/5.png) | ![Full UI](screenshots/6.png) |
 
 
 ---
