@@ -1,11 +1,4 @@
-Below is your **final, clean, professional README.md**, completely aligned with **your exact project structure, backend, frontend, and real API code**.
-Tone professional, concise, and ready for GitHub.
-
----
-
 # 🖐️ **GestureSpeak — Sign Language Translator**
-
-**Status:** 🚧 Under Development
 
 A full-stack Sign Language Translator that converts **real-time hand gestures into text**.
 The backend uses **Flask + Roboflow API**, and the frontend uses **React + Webcam** for live capture.
@@ -25,6 +18,24 @@ GestureSpeak allows users to communicate using American Sign Language (ASL) by d
 
 ---
 
+## 📸 **Screenshots**
+
+Screenshots will be added as UI completes.
+
+### 🖥️ Home Screen
+
+![Home Screen Placeholder](https://via.placeholder.com/900x500?text=Home+Screen+Preview)
+
+### 🎥 Gesture Capture UI
+
+![Capture UI Placeholder](https://via.placeholder.com/900x500?text=Webcam+and+Prediction+UI)
+
+### 🔤 Real-time Translation
+
+![Translation Placeholder](https://via.placeholder.com/900x500?text=Translation+Preview)
+
+---
+
 ## 📁 **Project Structure**
 
 ```
@@ -37,13 +48,6 @@ SignLanguageTranslator/
 │
 ├── frontend/
 │   ├── public/
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   ├── logo192.png
-│   │   ├── logo512.png
-│   │   ├── manifest.json
-│   │   └── robots.txt
-│   │
 │   ├── src/
 │   │   ├── App.css
 │   │   ├── App.jsx
@@ -98,8 +102,6 @@ The backend:
 * Picks highest-confidence prediction
 * Returns detected letter + confidence
 
-*(Full code is already inside your project.)*
-
 ---
 
 ## 🧩 **How to Run the Project**
@@ -133,24 +135,6 @@ npm start
 
 ---
 
-## 📸 **Screenshots**
-
-Screenshots will be added as UI completes.
-
-### 🖥️ Home Screen
-
-![Home Screen Placeholder](https://via.placeholder.com/900x500?text=Home+Screen+Preview)
-
-### 🎥 Gesture Capture UI
-
-![Capture UI Placeholder](https://via.placeholder.com/900x500?text=Webcam+and+Prediction+UI)
-
-### 🔤 Real-time Translation
-
-![Translation Placeholder](https://via.placeholder.com/900x500?text=Translation+Preview)
-
----
-
 ## 🛠️ **Technologies Used**
 
 ### Backend
@@ -169,12 +153,12 @@ Screenshots will be added as UI completes.
 
 ---
 
-## 📌 **Notes**
+>  **Notes**
 
 * RoboFlow model integration is working.
 * Confidence threshold set to **0.8**.
-* Dummy predictions replaced with real ML output.
-* venv/ and node_modules/ are ignored by Git.
+* Dummy predictions replaced with real API output.
+* venv/ and node_modules/ and others are ignored by Git.
 
 ---
 
