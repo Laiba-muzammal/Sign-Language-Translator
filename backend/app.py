@@ -47,9 +47,8 @@ def predict():
             return jsonify({"error": "No predictions"}), 400
         
         letter = predictions[0].get("class", "?")
-        
-        # Return "letter" key (not "prediction")
-        return jsonify({"letter": letter})  # Changed from "prediction" to "letter"
+        confidence = predictions[0].get("confidence", 0)  
+        return jsonify({"letter": letter, "confidence": confidence}) 
         
     except Exception as e:
         print("Error:", e)
