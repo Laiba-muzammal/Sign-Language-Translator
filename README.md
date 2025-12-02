@@ -1,50 +1,131 @@
+Below is your **final, clean, professional README.md**, completely aligned with **your exact project structure, backend, frontend, and real API code**.
+Tone professional, concise, and ready for GitHub.
 
-# Sign Language Translator 🖐️
+---
 
-**Status:** 🚧 Under Development  
-A full-stack Sign Language Translator that converts real-time hand gestures into text using **Python (Flask)** for the backend and **React** for the frontend.
+# 🖐️ **GestureSpeak — Sign Language Translator**
 
-## Overview
-This project enables users to communicate using American Sign Language (ASL) by translating hand gestures into text. The backend exposes a REST API for predictions, while the frontend captures webcam input and displays predicted letters in real-time.
+**Status:** 🚧 Under Development
 
-## Features
-- Real-time gesture recognition (dummy prediction currently)
-- Flask backend with `/predict` API
-- React frontend with webcam capture
-- Modular, maintainable code structure
-- Ready for AI/ML model integration
-- Deployment-ready architecture
+A full-stack Sign Language Translator that converts **real-time hand gestures into text**.
+The backend uses **Flask + Roboflow API**, and the frontend uses **React + Webcam** for live capture.
 
-## Project Structure
+---
+
+## ⭐ **Overview**
+
+GestureSpeak allows users to communicate using American Sign Language (ASL) by detecting hand gestures via webcam and translating them into text.
+
+* Real-time gesture capturing
+* Flask backend REST API
+* React frontend with webcam stream
+* RoboFlow model API integration
+* Clean & modular architecture
+* Ready for future AI/ML model enhancement
+
+---
+
+## 📁 **Project Structure**
+
 ```
 SignLanguageTranslator/
+│
 ├── backend/
-│ ├── app.py
-│ ├── requirements.txt
-│ └── venv/ # Ignored in Git
+│   ├── app.py
+│   ├── requirements.txt
+│   └── .env
+│
 ├── frontend/
-│ ├── package.json
-│ └── src/
-│ ├── App.js
-│ └── VideoCapture.js
-└── .gitignore
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   │
+│   ├── src/
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── VideoCapture.jsx
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   ├── logo.svg
+│   │   ├── reportWebVitals.js
+│   │   └── setupTests.js
+│   │
+│   ├── package.json
+│   └── package-lock.json
+│
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## Setup Instructions
+## 🚀 **Features**
 
-### Backend
-```
+### 🎥 Frontend
+
+* Webcam-based gesture capture
+* Bootstrap-styled UI
+* Live predictions displayed as:
+
+  * **Sentence**
+  * **Letter history with confidence**
+* Capture, Back, and Clear controls
+* Confidence threshold filtering
+
+### 🔧 Backend
+
+* Flask API (`POST /`)
+* Receives Base64 webcam image
+* Sends image to RoboFlow Model
+* Returns:
+
+  * `letter`
+  * `confidence`
+
+---
+
+## 🧠 **Main Backend Code (Summary)**
+
+The backend:
+
+* Accepts the Base64 image
+* Strips metadata prefix
+* Sends image to RoboFlow
+* Picks highest-confidence prediction
+* Returns detected letter + confidence
+
+*(Full code is already inside your project.)*
+
+---
+
+## 🧩 **How to Run the Project**
+
+### ▶️ Backend Setup
+
+```bash
 cd backend
 python -m venv venv
-./venv/Scripts/Activate.ps1  # Windows
+./venv/Scripts/Activate.ps1
 pip install -r requirements.txt
 python app.py
 ```
 
-### Frontend
+Ensure `.env` contains:
+
 ```
+ROBOFLOW_API_KEY=your_api_key
+ROBOFLOW_MODEL_URL=your_model_url
+```
+
+---
+
+### ▶️ Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm start
@@ -52,29 +133,52 @@ npm start
 
 ---
 
-### Notes
-Currently uses a dummy prediction "A" for all gestures.
+## 📸 **Screenshots**
 
-AI/ML model integration is in progress — will replace dummy predictions.
+Screenshots will be added as UI completes.
 
-Virtual environments (venv/) and frontend dependencies (node_modules/) are ignored in Git.
+### 🖥️ Home Screen
 
-Project is structured for easy maintenance, scaling, and deployment.
+![Home Screen Placeholder](https://via.placeholder.com/900x500?text=Home+Screen+Preview)
 
----
+### 🎥 Gesture Capture UI
 
-### Skills & Technologies Demonstrated
-Backend: Python, Flask, Flask-CORS, API development
+![Capture UI Placeholder](https://via.placeholder.com/900x500?text=Webcam+and+Prediction+UI)
 
-Frontend: React, Webcam capture, Axios for API calls
+### 🔤 Real-time Translation
 
-AI Integration: Placeholder for ML/AI model
-
-Version Control & Deployment: Git, GitHub, modular project structure
+![Translation Placeholder](https://via.placeholder.com/900x500?text=Translation+Preview)
 
 ---
 
-### License
+## 🛠️ **Technologies Used**
+
+### Backend
+
+* Python
+* Flask
+* Flask-CORS
+* RoboFlow API
+
+### Frontend
+
+* React
+* react-webcam
+* Axios
+* Bootstrap
+
+---
+
+## 📌 **Notes**
+
+* RoboFlow model integration is working.
+* Confidence threshold set to **0.8**.
+* Dummy predictions replaced with real ML output.
+* venv/ and node_modules/ are ignored by Git.
+
+---
+
+## 📄 **License**
+
 MIT License
 
----
