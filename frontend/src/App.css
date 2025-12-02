@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* Page background */
+.app-container {
+  background: linear-gradient(135deg, #113a5b, #527076);
   min-height: 100vh;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0f7fa;
+}
+
+/* Heading */
+.app-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size:50px ;
+  font-weight: bold;
+  color: #0c2333; /* accent color */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Webcam */
+.webcam {
+  border: 3px solid #367588;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Detected sentence card */
+.sentence-card {
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+  background-color: #113a5b;
+
+}
+
+/* Letters history badges */
+.history-card {
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 12px;
+  background-color: rgba(54,117,136,0.1); /* semi-transparent teal */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: #113a5b;
+}
+
+.history-card .badge {
+  background-color: #367588; /* medium teal */
+  color: #fff;
+  margin: 3px;
+  font-weight: bold;
+}
+
+/* Buttons */
+.button-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.button-container .btn {
+  min-width: 90px;
+  margin-right: 10px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  transition: 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-container .btn:last-child {
+  margin-right: 0;
+}
+
+/* Custom button colors */
+.button-container .btn-capture {
+  background-color: #004242; /* dark teal/green */
+  color: #fff;
+}
+
+.button-container .btn-capture:hover {
+  background-color: #003636;
+}
+
+.button-container .btn-back {
+  background-color: #fbc02d; /* yellow */
+  color: #000;
+}
+
+.button-container .btn-back:hover {
+  background-color: #fdd835;
+}
+
+.button-container .btn-clear {
+  background-color: #d32f2f; /* red */
+  color: #fff;
+}
+
+.button-container .btn-clear:hover {
+  background-color: #c62828;
 }
