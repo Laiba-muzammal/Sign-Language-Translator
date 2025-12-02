@@ -26,9 +26,9 @@ Screenshots will be added as UI completes.
 |------------|------------------|-------------------|
 | ![Home](screenshots/Outputs.png) | ![Capture](screenshots/Processing.png) | ![Prediction](screenshots/Outputs.png) |
 
-| History Panel | Confidence Badges | Full Interface |
+| On Back | On Clear | On Low Confidience.png |
 |---------------|-------------------|----------------|
-| ![History](screenshots/4.png) | ![Confidence](screenshots/5.png) | ![Full UI](screenshots/6.png) |
+| ![On Back](screenshots/OnBack.png) | ![On Clear](screenshots/OnClear.png) | ![On Low Confidience](screenshots/OnLowSignOrConfidience.png) |
 
 
 ---
