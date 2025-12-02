@@ -26,7 +26,7 @@ Screenshots will be added as UI completes.
 |------------|------------------|-------------------|
 | ![Home](screenshots/Outputs.png) | ![Capture](screenshots/Processing.png) | ![Prediction](screenshots/Outputs.png) |
 
-| On Back | On Clear | On Low Confidience.png |
+| On Back | On Clear | On Low Confidience |
 |---------------|-------------------|----------------|
 | ![On Back](screenshots/OnBack.png) | ![On Clear](screenshots/OnClear.png) | ![On Low Confidience](screenshots/OnLowSignOrConfidience.png) |
 
