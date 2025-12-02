@@ -22,17 +22,14 @@ GestureSpeak allows users to communicate using American Sign Language (ASL) by d
 
 Screenshots will be added as UI completes.
 
-### 🖥️ Home Screen
+| Home Screen | Gesture Capture | Prediction Output |
+|-------------|-----------------|-------------------|
+| ![1](https://via.placeholder.com/300x180?text=Screenshot+1) | ![2](https://via.placeholder.com/300x180?text=Screenshot+2) | ![3](https://via.placeholder.com/300x180?text=Screenshot+3) |
 
-![Home Screen Placeholder](https://via.placeholder.com/900x500?text=Home+Screen+Preview)
+| History Panel | Confidence Badges | Full Interface |
+|---------------|-------------------|----------------|
+| ![4](https://via.placeholder.com/300x180?text=Screenshot+4) | ![5](https://via.placeholder.com/300x180?text=Screenshot+5) | ![6](https://via.placeholder.com/300x180?text=Screenshot+6) |
 
-### 🎥 Gesture Capture UI
-
-![Capture UI Placeholder](https://via.placeholder.com/900x500?text=Webcam+and+Prediction+UI)
-
-### 🔤 Real-time Translation
-
-![Translation Placeholder](https://via.placeholder.com/900x500?text=Translation+Preview)
 
 ---
 
