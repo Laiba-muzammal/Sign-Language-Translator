@@ -2,7 +2,7 @@
 # Sign Language Translator 🖐️
 
 **Status:** 🚧 Under Development  
-A full-stack Sign Language Translator that converts real-time hand gestures into text using **Python (Flask)** for the backend and **React** for the frontend. Currently, the backend uses a placeholder prediction; full AI integration is in progress.
+A full-stack Sign Language Translator that converts real-time hand gestures into text using **Python (Flask)** for the backend and **React** for the frontend.
 
 ## Overview
 This project enables users to communicate using American Sign Language (ASL) by translating hand gestures into text. The backend exposes a REST API for predictions, while the frontend captures webcam input and displays predicted letters in real-time.
@@ -16,6 +16,7 @@ This project enables users to communicate using American Sign Language (ASL) by 
 - Deployment-ready architecture
 
 ## Project Structure
+```
 SignLanguageTranslator/
 ├── backend/
 │ ├── app.py
@@ -27,26 +28,31 @@ SignLanguageTranslator/
 │ ├── App.js
 │ └── VideoCapture.js
 └── .gitignore
+```
 
-bash
-Copy code
+---
 
 ## Setup Instructions
 
 ### Backend
-```bash
+```
 cd backend
 python -m venv venv
 ./venv/Scripts/Activate.ps1  # Windows
 pip install -r requirements.txt
 python app.py
-Frontend
-bash
-Copy code
+```
+
+### Frontend
+```
 cd frontend
 npm install
 npm start
-Notes
+```
+
+---
+
+### Notes
 Currently uses a dummy prediction "A" for all gestures.
 
 AI/ML model integration is in progress — will replace dummy predictions.
@@ -55,7 +61,9 @@ Virtual environments (venv/) and frontend dependencies (node_modules/) are ignor
 
 Project is structured for easy maintenance, scaling, and deployment.
 
-Skills & Technologies Demonstrated
+---
+
+### Skills & Technologies Demonstrated
 Backend: Python, Flask, Flask-CORS, API development
 
 Frontend: React, Webcam capture, Axios for API calls
@@ -64,17 +72,9 @@ AI Integration: Placeholder for ML/AI model
 
 Version Control & Deployment: Git, GitHub, modular project structure
 
-License
-MIT License
-
-yaml
-Copy code
-
 ---
 
-💡 **Professional Notes for Resume:**  
-- Mention this project as **“Under Development”**, showing awareness of project lifecycle.  
-- Highlight **full-stack development**, **AI integration**, and **real-time feature implementation**.  
-- Mention **modular, deployment-ready architecture** — makes it resume-worthy.  
+### License
+MIT License
 
 ---
