@@ -24,7 +24,7 @@ Screenshots will be added as UI completes.
 
 | Home Screen | Gesture Capture | Prediction Output |
 |-------------|-----------------|-------------------|
-| ![1](https://via.placeholder.com/300x180?text=Screenshot+1) | ![2](https://via.placeholder.com/300x180?text=Screenshot+2) | ![3](https://via.placeholder.com/300x180?text=Screenshot+3) |
+| !(screenshots/Landing Page.png) | !(screenshots/Processing.png) | !(screenshots/Ouputs.png) |
 
 | History Panel | Confidence Badges | Full Interface |
 |---------------|-------------------|----------------|
